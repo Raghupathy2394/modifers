@@ -1,0 +1,16 @@
+package METHODSS;
+
+public class Main{
+	static void mymethod() {
+		System.out.println("god");
+	}
+}
+
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+myMethod();
+	}
+
+}

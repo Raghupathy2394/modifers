@@ -1,0 +1,13 @@
+package Methods;
+
+public class Main2 {
+static void myMethods(String fname) {
+	System.out.println(fname + "student");
+}
+	public static void main(String[] args) {
+     myMethods("raj");	
+     myMethods("ravi");
+     myMethods("rahul");
+	}
+
+}

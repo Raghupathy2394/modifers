@@ -1,0 +1,13 @@
+package Methods;
+
+public class main1 {
+	static void mymethods() {
+		System.out.println("lion");
+	}
+
+	public static void main(String[] args) {
+		mymethods();
+
+	}
+
+}

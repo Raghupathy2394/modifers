@@ -1,0 +1,13 @@
+package operators;
+
+public class Arithmetic {
+
+	public static void main(String[] args) {
+		int a = 5;
+		int b = 7;
+	    float c =(float) a/b;
+		System.out.println(c);
+
+	}
+
+}

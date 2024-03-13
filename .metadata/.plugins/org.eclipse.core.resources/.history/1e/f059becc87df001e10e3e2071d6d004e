@@ -1,0 +1,25 @@
+package Methods;
+
+public class Main2 
+/*{
+static void myMethods(String fname) {
+	System.out.println(fname + " student");
+}
+	public static void main(String[] args) {
+     myMethods("raj");	
+     myMethods("ravi");
+     myMethods("rahul");
+	}
+
+} */
+
+///multiple parameters//
+static void myMethods(String fname,int age) {
+	System.out.println(fname +"is" +age);
+	}
+public static void main(String[] args) {
+    myMethods("raj",30);	
+    myMethods("ravi",31);
+    myMethods("rahul",32);
+	}
+}

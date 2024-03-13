@@ -1,0 +1,19 @@
+package PRIMITIVE;
+
+public class variables {
+
+	public static void main(String[] args) {
+		int a=7;
+		String name = "lion king";
+		double temp = 98.9;
+		boolean paid=true;
+		{
+			System.out.println("a = "+a); 
+		    System.out.println("name ="+name);
+		    System.out.println("temp ="+temp);
+		    System.out.println("paid="+paid);
+	}
+	
+
+	}
+}

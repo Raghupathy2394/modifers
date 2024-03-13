@@ -1,0 +1,19 @@
+package operators;
+
+public class prefix {
+
+	public static void main(String[] args) {
+		int n = 5;
+	
+		int val = --n;
+		System.out.println(val);
+        System.out.println(n);
+        
+        int m = 6;
+        
+     	int Val = ++m;
+        System.out.println(val);
+        System.out.println(m);
+	}
+
+}

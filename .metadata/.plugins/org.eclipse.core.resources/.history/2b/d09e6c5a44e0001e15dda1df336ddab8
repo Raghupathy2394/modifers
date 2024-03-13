@@ -1,0 +1,43 @@
+package javaclass;
+
+public class Main {
+/*{
+int x =4 ;
+	public static void main(String[] args) {
+		Main myObj1= new Main();
+		Main myObj2=new Main();
+		System.out.println(myObj1.x);
+System.out.println(myObj2.x);
+	}}    
+/// multible attributes//
+String fname="raj";
+String lname="anand";
+	int age=25 ;
+	public static void main(String[] args) {
+		Main obj=new Main();
+		System.out.println("Name:"+ obj.fname + " " + obj.lname);
+	System.out.println("Age:"+obj.age); 
+	} } 
+	static void mymethod() 
+	{
+		System.out.println("hello");
+	}
+	public static void main(String[] args) {
+		mymethod();  mymethod();
+	}} */
+	
+	//static vs public
+	 static void mystaticmethod() {
+		System.out.println("helo");
+	}
+	public void mypublicmethod() {
+		System.out.println("world");
+	}
+	public static void main(String[] args) {
+		mystaticmethod();
+		Main myObj=new Main();
+		myObj.mypublicmethod();
+		
+		
+	}
+	}

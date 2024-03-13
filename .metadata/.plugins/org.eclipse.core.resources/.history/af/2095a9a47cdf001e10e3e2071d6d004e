@@ -1,0 +1,12 @@
+package Methods;
+
+public class Main1 {
+static void myMethod() {
+	System.out.println("god");
+	
+
+		public static void main(string[] args) {
+        mymethod();
+	}
+}
+}
